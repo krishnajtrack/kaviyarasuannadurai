@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Serve the contact card at the site root (there is no index.html)
+[[redirects]]
+  from = "/"
+  to = "/kaviyarasu-contact-card.html"
+  status = 200
